@@ -4,13 +4,13 @@
 	$visitor_email = $_POST['email'];
 	$message = $_POST['message'];
 	
-	$email_form = 'EasyTutorials@avinaskar.com';
+	$email_form = 'EasyTutorials@avinashkr.com';
 
 	$email_subject = "New From Submission";
 
 	$email_body = "User Name:$name.\n".
 					"User Email:$visitor_email.\n".
-						"User Message:$message.\n".
+						"User Message:$message.\n";
 
 
 		$to = "sohrab_bd@hotmail.com";
